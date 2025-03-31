@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backround"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Foodinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:hint="Enter time of day (e.g morning, evning)"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text=""
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btncheckfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/redBackround"
+        android:text="Meal check" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/redBackround"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/redBackround"/>
+</LinearLayout>
