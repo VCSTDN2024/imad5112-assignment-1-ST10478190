@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         btnclear = findViewById(R.id.btnclear)
         foodInput = findViewById(R.id.Foodinput)
         btnexit = findViewById(R.id.btnexit)
-
+//button layout 
         btncheckfood.setOnClickListener {
             checkFood()
         }
